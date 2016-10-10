@@ -71,9 +71,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Chapters\C04-Scrolling_the_stack\Black\Texts\TheBlackCat.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Assets\Texts\TheBlackCat.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
