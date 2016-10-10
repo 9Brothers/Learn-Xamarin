@@ -36,9 +36,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Chapters\C02\GreetingsPage.cs" />
-    <Compile Include="Chapters\C02\Hello.cs" />
-    <Compile Include="Chapters\C03\BaskervillesPage.cs" />
+    <Compile Include="Chapters\C02-Anatomy_of_an_app\GreetingsPage.cs" />
+    <Compile Include="Chapters\C02-Anatomy_of_an_app\Hello.cs" />
+    <Compile Include="Chapters\C03-Deeper_into_text\BaskervillesPage.cs" />
+    <Compile Include="Chapters\C03-Deeper_into_text\NamedFontSizesPage.cs" />
+    <Compile Include="Chapters\C03-Deeper_into_text\VariableFormattedParagraphPage.cs" />
+    <Compile Include="Chapters\C03-Deeper_into_text\VariableFormattedTextPage.cs" />
+    <Compile Include="Chapters\C04-Scrolling_the_stack\BlackCatPage.cs" />
+    <Compile Include="Chapters\C04-Scrolling_the_stack\ColorBlocksPage.cs" />
+    <Compile Include="Chapters\C04-Scrolling_the_stack\ColorListPage.cs" />
+    <Compile Include="Chapters\C04-Scrolling_the_stack\ColorLoopPage.cs" />
+    <Compile Include="Chapters\C04-Scrolling_the_stack\FramedTextPage.cs" />
+    <Compile Include="Chapters\C04-Scrolling_the_stack\ReflectedColorsPage.cs" />
+    <Compile Include="Chapters\C04-Scrolling_the_stack\SizedBoxViewPage.cs" />
+    <Compile Include="Chapters\C04-Scrolling_the_stack\VerticalOptionsDemoPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,7 +70,12 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C04-Scrolling_the_stack\Black\Texts\TheBlackCat.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Texts\TheBlackCat.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.2.0.45\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.2.0.45\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
