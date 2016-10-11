@@ -1,6 +1,7 @@
 ﻿using Learn.Chapters.C02;
 using Learn.Chapters.C03;
 using Learn.Chapters.C04_Scrolling_the_stack;
+using Learn.Chapters.C05_Dealing_with_sizes;
 using Learn.Classes.C04_Scrolling_the_stack;
 using System;
 using System.Collections.Generic;
@@ -15,19 +16,19 @@ namespace Learn
   {
     public App()
     {
-      #region Capítulo 2 - Anatomy of an app
+      #region Chapter 2 - Anatomy of an app
       //MainPage = new Hello();
       //MainPage = new GreetingsPage();
       #endregion
 
-      #region Capítulo 3 - Deeper into text
+      #region Chapter 3 - Deeper into text
       //MainPage = new BaskervillesPage();
       //MainPage = new VariableFormattedTextPage();
       //MainPage = new VariableFormattedParagraphPage();
       //MainPage = new NamedFontSizesPage();
       #endregion
 
-      #region Capítulo 4 - Scrolling the stack
+      #region Chapter 4 - Scrolling the stack
       //MainPage = new ColorLoopPage();
       //MainPage = new ColorListPage();
       //MainPage = new ReflectedColorsPage();
@@ -35,7 +36,17 @@ namespace Learn
       //MainPage = new FramedTextPage();
       //MainPage = new SizedBoxViewPage();
       //MainPage = new ColorBlocksPage();
-      MainPage = new BlackCatPage();
+      //MainPage = new BlackCatPage();      
+      #endregion
+
+      #region Chapter 5 - Dealing with sizes
+      //MainPage = new WhatSizePage();
+      //MainPage = new MetricalBoxViewPage();
+      //MainPage = new FontSizesPage();
+      //MainPage = new EstimatedFontSizePage();
+      //MainPage = new FitToSizeClockPage();
+      //MainPage = new AccessibilityTestPage();
+      MainPage = new EmpiricalFontSizePage();
       #endregion
     }
 
