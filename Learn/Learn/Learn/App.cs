@@ -3,6 +3,7 @@ using Learn.Chapters.C03;
 using Learn.Chapters.C04_Scrolling_the_stack;
 using Learn.Chapters.C05_Dealing_with_sizes;
 using Learn.Chapters.C06_Button_clicks;
+using Learn.Chapters.C07_XAML_vs_code;
 using Learn.Classes.C04_Scrolling_the_stack;
 using System;
 using System.Collections.Generic;
@@ -57,11 +58,17 @@ namespace Learn
       //MainPage = new TwoButtonsPage();
       //MainPage = new ButtonLambdasPage();
       //MainPage = new SimplestKeypadPage();
-      if (Properties.ContainsKey(displayLabelText))
-      {
-        DisplayLabelText = (string)Properties[displayLabelText];
-      }
-      MainPage = new PersistentKeypadPage();
+      //if (Properties.ContainsKey(displayLabelText))
+      //{
+      //  DisplayLabelText = (string)Properties[displayLabelText];
+      //}
+      //MainPage = new PersistentKeypadPage();
+      #endregion
+
+      #region Chapter 7 - XAML vs. code
+      //MainPage = new CodePlusXamlPage();
+      //MainPage = new ScaryColorList();
+      MainPage = new TextVariations();
       #endregion
     }
 
