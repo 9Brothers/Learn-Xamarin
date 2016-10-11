@@ -57,6 +57,11 @@
     <Compile Include="Chapters\C05-Dealing_with_sizes\FontSizesPage.cs" />
     <Compile Include="Chapters\C05-Dealing_with_sizes\MetricalBoxViewPage.cs" />
     <Compile Include="Chapters\C05-Dealing_with_sizes\WhatSizePage.cs" />
+    <Compile Include="Chapters\C06-Button_clicks\ButtonLambdasPage.cs" />
+    <Compile Include="Chapters\C06-Button_clicks\ButtonLoggerPage.cs" />
+    <Compile Include="Chapters\C06-Button_clicks\PersistentKeypadPage.cs" />
+    <Compile Include="Chapters\C06-Button_clicks\SimplestKeypadPage.cs" />
+    <Compile Include="Chapters\C06-Button_clicks\TwoButtonsPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

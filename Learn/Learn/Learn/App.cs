@@ -2,6 +2,7 @@
 using Learn.Chapters.C03;
 using Learn.Chapters.C04_Scrolling_the_stack;
 using Learn.Chapters.C05_Dealing_with_sizes;
+using Learn.Chapters.C06_Button_clicks;
 using Learn.Classes.C04_Scrolling_the_stack;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ namespace Learn
 {
   public class App : Application
   {
+    const String displayLabelText = "displayLabelText";
+
     public App()
     {
       #region Chapter 2 - Anatomy of an app
@@ -46,9 +49,23 @@ namespace Learn
       //MainPage = new EstimatedFontSizePage();
       //MainPage = new FitToSizeClockPage();
       //MainPage = new AccessibilityTestPage();
-      MainPage = new EmpiricalFontSizePage();
+      //MainPage = new EmpiricalFontSizePage();
+      #endregion
+
+      #region Chapter 6 - Button clicks
+      //MainPage = new ButtonLoggerPage();
+      //MainPage = new TwoButtonsPage();
+      //MainPage = new ButtonLambdasPage();
+      //MainPage = new SimplestKeypadPage();
+      if (Properties.ContainsKey(displayLabelText))
+      {
+        DisplayLabelText = (string)Properties[displayLabelText];
+      }
+      MainPage = new PersistentKeypadPage();
       #endregion
     }
+
+    public String DisplayLabelText { get; set; }
 
     protected override void OnStart()
     {
@@ -58,6 +75,7 @@ namespace Learn
     protected override void OnSleep()
     {
       // Handle when your app sleeps
+      Properties[displayLabelText] = DisplayLabelText;
     }
 
     protected override void OnResume()
