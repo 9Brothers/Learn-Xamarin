@@ -71,6 +71,30 @@
     <Compile Include="Chapters\C07-XAML_vs_code\TextVariations.xaml.cs">
       <DependentUpon>TextVariations.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\ColorView.xaml.cs">
+      <DependentUpon>ColorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\ColorViewListPage.xaml.cs">
+      <DependentUpon>ColorViewListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\FactoryMethodDemoPage.xaml.cs">
+      <DependentUpon>FactoryMethodDemoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\MonkeyTapPage.xaml.cs">
+      <DependentUpon>MonkeyTapPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\ParameteredConstructorDemo.xaml.cs">
+      <DependentUpon>ParameteredConstructorDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\PlatformSpecificLabelsPage.xaml.cs">
+      <DependentUpon>PlatformSpecificLabelsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\XamlClockPage.xaml.cs">
+      <DependentUpon>XamlClockPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\XamlKeypadPage.xaml.cs">
+      <DependentUpon>XamlKeypadPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +132,54 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Chapters\C07-XAML_vs_code\TextVariations.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\ParameteredConstructorDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\FactoryMethodDemoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\XamlClockPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\PlatformSpecificLabelsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\ColorView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\ColorViewListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\XamlKeypadPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\MonkeyTapPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

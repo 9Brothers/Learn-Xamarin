@@ -4,6 +4,7 @@ using Learn.Chapters.C04_Scrolling_the_stack;
 using Learn.Chapters.C05_Dealing_with_sizes;
 using Learn.Chapters.C06_Button_clicks;
 using Learn.Chapters.C07_XAML_vs_code;
+using Learn.Chapters.C08_Code_and_XAML_in_Harmony;
 using Learn.Classes.C04_Scrolling_the_stack;
 using System;
 using System.Collections.Generic;
@@ -68,7 +69,15 @@ namespace Learn
       #region Chapter 7 - XAML vs. code
       //MainPage = new CodePlusXamlPage();
       //MainPage = new ScaryColorList();
-      MainPage = new TextVariations();
+      //MainPage = new TextVariations();
+      #endregion
+
+      #region Chapter 8 - Conde and XAML in harmony
+      //MainPage = new ParameteredConstructorDemo();
+      //MainPage = new XamlClockPage();
+      //MainPage = new ColorViewListPage();
+      //MainPage = new XamlKeypadPage();
+      MainPage = new MonkeyTapPage();
       #endregion
     }
 
