@@ -5,6 +5,7 @@ using Learn.Chapters.C05_Dealing_with_sizes;
 using Learn.Chapters.C06_Button_clicks;
 using Learn.Chapters.C07_XAML_vs_code;
 using Learn.Chapters.C08_Code_and_XAML_in_Harmony;
+using Learn.Chapters.C09_Platform_specific_API_calls;
 using Learn.Classes.C04_Scrolling_the_stack;
 using System;
 using System.Collections.Generic;
@@ -77,7 +78,11 @@ namespace Learn
       //MainPage = new XamlClockPage();
       //MainPage = new ColorViewListPage();
       //MainPage = new XamlKeypadPage();
-      MainPage = new MonkeyTapPage();
+      //MainPage = new MonkeyTapPage();      
+      #endregion
+
+      #region Chapter 9 - Platform-specific API calls
+      MainPage = new MonkeyTapWithSoundPage();
       #endregion
     }
 

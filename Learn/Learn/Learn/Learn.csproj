@@ -95,6 +95,12 @@
     <Compile Include="Chapters\C08-Code_and_XAML_in_Harmony\XamlKeypadPage.xaml.cs">
       <DependentUpon>XamlKeypadPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Chapters\C09-Platform_specific_API_calls\IPlatformSoundPlayer.cs" />
+    <Compile Include="Chapters\C09-Platform_specific_API_calls\MonkeyTapWithSoundPage.cs" />
+    <Compile Include="Chapters\C09-Platform_specific_API_calls\PlatInfoSap1Page.xaml.cs">
+      <DependentUpon>PlatInfoSap1Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapters\C09-Platform_specific_API_calls\SoundPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +186,13 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Chapters\C08-Code_and_XAML_in_Harmony\MonkeyTapPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Chapters\C09-Platform_specific_API_calls\PlatInfoSap1Page.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

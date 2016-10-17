@@ -33,7 +33,7 @@ namespace Learn.Chapters.C08_Code_and_XAML_in_Harmony
       InitializeBoxViewColors();
     }
 
-    void InitializeBoxViewColors()
+    public void InitializeBoxViewColors()
     {
       for (int index = 0; index < 4; index++)
       {
@@ -41,7 +41,7 @@ namespace Learn.Chapters.C08_Code_and_XAML_in_Harmony
       }
     }
 
-    void OnStartGameButtonClicked(object sender, EventArgs e)
+    public void OnStartGameButtonClicked(object sender, EventArgs e)
     {
       gameEnded = false;
       startGameButton.IsVisible = false;
