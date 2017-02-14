@@ -23,11 +23,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharedApp.WinPhone", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSharedApp.Windows", "LearnSharedApp\LearnSharedApp.Windows\LearnSharedApp.Windows.csproj", "{F48F2E71-DC59-49CF-A4E7-6A25D5315B83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portable", "Portable", "{865CE0C3-E24F-4C04-ACE2-D6DEA3181B96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B2B5D46A-95F0-4061-951C-0B38215EE656}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		LearnSharedApp\LearnSharedApp\LearnSharedApp.projitems*{1112ce78-36dc-4d8f-aa84-253056ae0230}*SharedItemsImports = 4
 		LearnSharedApp\LearnSharedApp\LearnSharedApp.projitems*{1aa0ea76-ef84-4abc-9fd0-b0211bdc18ca}*SharedItemsImports = 4
+		LearnSharedApp\LearnSharedApp\LearnSharedApp.projitems*{887c52c1-066b-4a8a-8b09-10a926103b1a}*SharedItemsImports = 4
 		LearnSharedApp\LearnSharedApp\LearnSharedApp.projitems*{c7ae6b4d-6be4-4411-a10a-a37a440b67ac}*SharedItemsImports = 13
+		LearnSharedApp\LearnSharedApp\LearnSharedApp.projitems*{f48f2e71-dc59-49cf-a4e7-6a25d5315b83}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -603,5 +609,17 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37FBB5D5-7F6C-4479-B395-DA735D46453D} = {865CE0C3-E24F-4C04-ACE2-D6DEA3181B96}
+		{F100A228-45E8-4634-AC46-AD1C3690B900} = {865CE0C3-E24F-4C04-ACE2-D6DEA3181B96}
+		{59E6E77B-CEDB-468B-BD5B-CF94BDD8D571} = {865CE0C3-E24F-4C04-ACE2-D6DEA3181B96}
+		{2DF34A3F-967E-428B-8095-51B952290702} = {865CE0C3-E24F-4C04-ACE2-D6DEA3181B96}
+		{9DAE7DBD-FFAC-4A9D-9FCD-3CB73537D7AE} = {865CE0C3-E24F-4C04-ACE2-D6DEA3181B96}
+		{C7AE6B4D-6BE4-4411-A10A-A37A440B67AC} = {B2B5D46A-95F0-4061-951C-0B38215EE656}
+		{1112CE78-36DC-4D8F-AA84-253056AE0230} = {B2B5D46A-95F0-4061-951C-0B38215EE656}
+		{1AA0EA76-EF84-4ABC-9FD0-B0211BDC18CA} = {B2B5D46A-95F0-4061-951C-0B38215EE656}
+		{887C52C1-066B-4A8A-8B09-10A926103B1A} = {B2B5D46A-95F0-4061-951C-0B38215EE656}
+		{F48F2E71-DC59-49CF-A4E7-6A25D5315B83} = {B2B5D46A-95F0-4061-951C-0B38215EE656}
 	EndGlobalSection
 EndGlobal

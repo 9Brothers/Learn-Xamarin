@@ -17,9 +17,28 @@
       <DependentUpon>PlatInfoSap1Page.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\AppConstants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\CustomExtensionDemoPage.xaml.cs">
+      <DependentUpon>CustomExtensionDemoPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\DynamicVsStaticPage.xaml.cs">
+      <DependentUpon>DynamicVsStaticPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\HslColorExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\SharedStaticsPage.xaml.cs">
+      <DependentUpon>SharedStaticsPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\SystemStaticsPage.xaml.cs">
+      <DependentUpon>SystemStaticsPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Toolkit.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml">
@@ -36,6 +55,30 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)C09-Platform-specific_API_calls\PlatInfoSap1Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\SharedStaticsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\SystemStaticsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\DynamicVsStaticPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)C10-XAML_markup_extensions\CustomExtensionDemoPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
